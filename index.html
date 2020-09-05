@@ -30,63 +30,154 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="style/cover.css" rel="stylesheet">
+    <link href="style/bootstrap.css" rel="stylesheet">
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9f8e8fc542.js" crossorigin="anonymous"></script>
 
-    <title>Vanesa Garrido Page</title>
+    <title>Vanesa gH · Page</title>
 </head>
 
 <body class="text-center">
 
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
         <header class="masthead mb-auto">
-            <nav class="nav nav-masthead  justify-content-center">
-                <a class=" active nav-link " data-toggle="tab" href="#home">Home</a>
-                <a class="nav-link" data-toggle="tab" href="#about">About</a>
-                <a class="nav-link" data-toggle="tab" href="#personal-projects">Personal Projects</a>
-                <a class="nav-link" data-toggle="tab" href="#contact">Contact</a>                               
-            </nav>
+            <div class="inner">
+                <h3 class="masthead-brand">Vanesa Garrido H</h3>
+                <nav class="nav nav-masthead  justify-content-center">
+                    <a class=" active nav-link " data-toggle="tab" href="#home">Home</a>
+                    <a class="nav-link" data-toggle="tab" href="#about">About</a>
+                    <a class="nav-link" data-toggle="tab" href="#personal-projects">Projects</a>
+                    <a class="nav-link" data-toggle="tab" href="#contact">Contact</a>
+                </nav>
+
+
+            </div>
+
         </header>
         <main role="main" class="tab-content inner cover">
-            <div id="home" class="tab-pane in active ">
-                <h2>Bienvenido, Welcome, Willkommen</h2>
-                <p>Hello this is my personal site that is dedicated to share my experience in ...</p>
+            <div id="home" class="tab-pane in active justify-content-left ">
+                <h3>Bienvenidos, Welcome, Willkommen</h3>
+                <p class="lead">A personal site that is dedicated to share my journey in this new path, I decided to make in my professional career: becoming a software developer.
+                </p>
+
             </div>
             <div id="about" class="tab-pane fade">
                 <h3>About me</h3>
-                <p> I am Vanesa Garrido Hernández, a professional with a background in the telecom industry.
+                <p class="lead"> I am Vanesa Garrido Hernández, a mechanical electrical engineer with a strong background in the telecom industry.
                 </p>
-                <p>My professional insterests are Industry 4.0 in SMEs, IoT and wearables</p>
+                <p class="lead">My professional interests are Industry 4.0 in SMEs, IoT and wearables.</p>
+                <p class="lead"> Today, I am developing personal projects that involve software development and embedded systems.
+                </p>
             </div>
             <div id="personal-projects" class="tab-pane fade">
-                <h3>Personal projects</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam.
+                <h3>Projects</h3>
+                <p class="lead"> The personal projects I have developed aim to solve a problem and to learn new technologies. Mostly I program in <strong>Python</strong> and <strong>C</strong> languages. I am very fond of the use of bots as a UI. They are easy to adopt
+                    to the user. Below you can find a list of them:
                 </p>
+                <h4>IoT</h4>
+                <hr>
+                <div class="list-group">
+
+                    <a href="https://bitbucket.org/vanegh/whoisconnected/src/54c6ebf411dff4d4282ec95a920ddc446c65c0f0/?at=feature%2FmongoAtlas" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Who is connected bot</h5>
+                            <small>Bot, Home Monitoring</small>
+                        </div>
+                        <p class="mb-1">A bot that tells you who is connected to the home router.
+                        </p>
+                        <small>Raspberry pi <i class="fab fa-raspberry-pi fa-lg"></i>, Python <i class="fab fa-python fa-lg"></i>, MongoDB <i class="fas fa-database fa-lg"></i>, Telegram <i class="fab fa-telegram fa-lg"></i>, Docker <i class="fab fa-docker fa-lg"></i></small>
+
+                    </a>
+                    <a href="https://bitbucket.org/vanegh/humid-temp_dht11_rbpi/src/mcp9808/" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">How is my room bot</h5>
+                            <small>Bot, Home monitoring</small>
+                        </div>
+                        <p class="mb-1">A bot that tells you the Temperature of a room.
+                        </p>
+                        <small>Raspberry pi <i class="fab fa-raspberry-pi fa-lg"></i>, MCP9808 <i class="fas fa-microchip fa-lg"></i>, Python <i class="fab fa-python fa-lg"></i>, MongoDB <i class="fas fa-database fa-lg"></i>, Telegram <i
+                            class="fab fa-telegram fa-lg"></i>, Docker <i class="fab fa-docker fa-lg"></i></small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Door bot</h5>
+                            <small>Bot, Home monitoring</small>
+                        </div>
+                        <p class="mb-1"> A bot that tells you if the door main entrance is open or closed.
+                        </p>
+                        <small>Raspberry pi <i class="fab fa-raspberry-pi fa-lg"></i>, ESP8266 <i class="fas fa-wifi fa-lg"></i>, MC-38 <i class="fas fa-microchip fa-lg"></i>, CouchDB <i class="fas fa-database fa-lg"></i>, Telegram <i class="fab fa-telegram fa-lg"></i></small>
+                    </a>
+                </div>
+                <h4>Wearables</h4>
+                <hr>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Ponte trucha safety apparel</h5>
+                            <small>Embedded System</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+                        </p>
+                        <small>Arduino <i class="fas fa-microchip fa-lg"></i>, NeoPixel</small>
+                    </a>
+                </div>
+
+                <h4>Other</h4>
+                <hr>
+                <div class="list-group">
+                    <a href="https://bitbucket.org/vanegh/compare-prices/src/master/" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Compara precios</h5>
+                            <small>Web scraping</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+                        </p>
+                        <small>Python <i class="fab fa-python fa-lg"></i> : Flask, Dash, Pandas</small>
+                    </a>
+
+                    <a href="https://tomatovalley.github.io/ecologia-team5-gestion-de-residuos/" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Nuevo Ciclo</h5>
+                            <small>Hackaton Supercivicos</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+                        </p>
+                        <small>HTML <i class="fab fa-html5 fa-lg"></i>, CSS <i class="fab fa-css3-alt fa-lg"></i>, Vuejs <i class="fab fa-vuejs fa-lg"></i>, Bootstrap <i class="fab fa-bootstrap fa-lg"></i> </small>
+                    </a>
+
+                </div>
+
+
+
+
             </div>
+
+
+
             <div id="contact" class="tab-pane fade">
                 <h3>Contact</h3>
-                <p>You can ping me through the traditional means</p>
+                <p class="lead">You can ping me through the traditional means</p>
             </div>
-            
+
         </main>
 
-                
-                    
-                
 
 
 
 
 
-                <footer class="mastfoot mt-auto">
-                    <div class="inner">
-                        <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-    </div>
-    </footer>
+
+
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>. Modified by VGH</p>
+            </div>
+        </footer>
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

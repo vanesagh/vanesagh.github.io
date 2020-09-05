@@ -32,20 +32,19 @@ a:hover {
 html,
 body {
     height: 100%;
-    background-color: #333;
+    background-color: #2B4162;
 }
 
 body {
-    display: -ms-flexbox;
-    display: flex;
     color: #fff;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-.cover-container {
-    max-width: 42em;
-}
+
+/*.cover-container {
+    background-color: #2B4162;
+}*/
 
 
 /*
@@ -82,6 +81,13 @@ body {
     border-bottom-color: #fff;
 }
 
+.list-group {
+    color: #fff;
+    background-color: #7C9EB2;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
 @media (min-width: 48em) {
     .masthead-brand {
         float: left;
@@ -91,18 +97,59 @@ body {
     }
 }
 
+@media (min-width: 1200px) {
+    p {
+        width: 75%;
+        text-align: justify;
+        margin-left: 170px;
+    }
+    .list-group {
+        width: 75%;
+        text-align: justify;
+        margin-left: 170px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+    }
+    .list-group>a {
+        color: #fff;
+        background-color: #2B4162;
+        border-bottom-style: solid;
+        margin-bottom: 10px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+    }
+    .list-group>a:hover {
+        color: #fff;
+        background-color: #E84855;
+    }
+}
+
+@media (max-width: 1199px) {
+    .list-group>a {
+        color: #fff;
+        background-color: #2B4162;
+        border-bottom-style: solid;
+        margin-bottom: 10px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+    }
+    .list-group>a:hover {
+        color: #fff;
+        background-color: #E84855;
+    }
+}
+
 
 /*
  * Cover
  */
 
 .cover {
-    padding: 0 1.5rem;
-}
-
-.cover .btn-lg {
-    padding: .75rem 1.25rem;
-    font-weight: 700;
+    padding: 10px;
+    /*background-color: lightblue;*/
 }
 
 
@@ -113,3 +160,8 @@ body {
 .mastfoot {
     color: rgba(255, 255, 255, .5);
 }
+
+
+/*
+* Paragraphs
+*/
