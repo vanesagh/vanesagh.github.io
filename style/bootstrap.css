@@ -121,14 +121,14 @@ body {
 .nav-masthead .nav-link {
     padding: .25rem 0;
     font-weight: 700;
-    color: rgba(255, 255, 255, .5);
+    color: #AFAFDC;
     background-color: transparent;
     border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
+    border-bottom-color: #AFAFDC;
 }
 
 .nav-masthead .nav-link+.nav-link {
@@ -6240,9 +6240,9 @@ a.badge-dark.focus {
 .list-group-item-action:hover,
 .list-group-item-action:focus {
     z-index: 1;
-    color: #333;
+    color: #1C3144;
     text-decoration: none;
-    background-color: #DE6B48;
+    background-color: #5C946E;
 }
 
 .list-group-item-action:active {
