@@ -155,8 +155,17 @@ body {
  * Footer
  */
 
-.mastfoot {
-    color: rgba(255, 255, 255, .5);
+.mastfoot p {
+    color: #AFAFDC;
+}
+
+.mastfoot a {
+    color: #fff;
+}
+
+.mastfoot a:hover,
+.mastfoot a:focus {
+    color: #FFC759;
 }
 
 hr {
@@ -249,11 +258,12 @@ sup {
     top: -.5em;
 }
 
-a {
+
+/*a {
     color: rgba(255, 255, 255, .5);
     text-decoration: underline;
     background-color: transparent;
-}
+}*
 
 a:hover {
     color: #fff;
@@ -268,7 +278,7 @@ a:not([href]):not([class]) {
 a:not([href]):not([class]):hover {
     color: inherit;
     text-decoration: none;
-}
+}*/
 
 pre,
 code,
